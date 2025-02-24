@@ -1,7 +1,7 @@
 "use client"
 import Link from "next/link";
 import Image from 'next/image'
-import { OrganizationSwitcher, SignedIn, SignOutButton, useClerk } from "@clerk/nextjs";
+import { OrganizationSwitcher, SignedIn, useClerk } from "@clerk/nextjs";
 import { useRouter } from "next/navigation";
 import {dark} from '@clerk/themes';
 
